@@ -1,0 +1,68 @@
+
+.contact-page {
+  padding: 50px;
+  text-align: center;
+}
+  
+.page-header {
+  font-family: 'Orbitron', sans-serif;
+  padding: 20px;
+  color: #00bfa5;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.linkedin-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.linkedin-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+
+
+.linkedin-headshot {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+.linkedin-card h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.linkedin-card p {
+  color: #555;
+  font-size: 1em;
+}
+
+.linkedin-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.linkedin-card a:hover {
+  background-color: #005582;
+}
